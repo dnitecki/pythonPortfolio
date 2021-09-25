@@ -1,5 +1,5 @@
 from tkinter import *
-import numpy.lib.financial as np
+import numpy as np
 
 def NPV(R,CASHFLOWS):
     return np.npv(R,CASHFLOWS)
